@@ -1,0 +1,72 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: black;
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* 3 item row */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row div {
+    background-color: lightgray;
+    padding: 20px;
+    width: 100px;
+}
+
+
+/* Justify content */
+.justify {
+    display: flex;
+    justify-content: space-around;
+}
+
+.justify div {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+
+/* Center a box */
+.center {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.box {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
